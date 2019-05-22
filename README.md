@@ -3,6 +3,7 @@ cron-parser
 
 [![Build Status](https://travis-ci.org/harrisiirak/cron-parser.svg?branch=master)](https://travis-ci.org/harrisiirak/cron-parser)
 [![NPM version](https://badge.fury.io/js/cron-parser.png)](http://badge.fury.io/js/cron-parser)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjeffdinotoriverbed%2Fcron-parser.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjeffdinotoriverbed%2Fcron-parser?ref=badge_shield)
 
 Node.js library for parsing crontab instructions. It includes support for timezones and DST transitions.
 
@@ -127,3 +128,7 @@ will be expecting. Using one of the supported `string` formats will solve the is
 * *iterator* - Return ES6 compatible iterator object 
 * *utc* - Enable UTC
 * *tz* - Timezone string. It won't be used in case `utc` is enabled
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fjeffdinotoriverbed%2Fcron-parser.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fjeffdinotoriverbed%2Fcron-parser?ref=badge_large)
